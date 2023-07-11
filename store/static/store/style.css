@@ -1,0 +1,7 @@
+
+.thumbnail{
+    width:6rem;
+    height:6rem;
+    border-radius:20%;
+    box-sizing:border-box;
+}
