@@ -4,19 +4,17 @@ verify_ssl = true
 name = "pypi"
 
 [packages]
-django = "*"
-django-debug-toolbar = "*"
-mysqlclient = "*"
-djangorestframework = "*"
-drf-nested-routers = "*"
-django-filter = "*"
-djoser = "*"
-djangorestframework-simplejwt = "*"
-pillow = "*"
-django-templated-mail = "*"
+celery = "*"
+pytest = "*"
+pytest-django = "*"
+locust = "*"
+django-redis = "*"
 
 [dev-packages]
+pytest = "*"
+pytest-django = "*"
 autopep8 = "*"
+model-bakery = "*"
 
 [requires]
 python_version = "3.10"
